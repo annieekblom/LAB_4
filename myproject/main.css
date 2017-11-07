@@ -1,0 +1,126 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+}
+
+------------HEADER-------------
+
+
+nav #menu {
+	overflow: hidden;
+	font-size: 14px;
+}
+
+#menu ul {
+	border-bottom: solid 3px #000;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #300829;
+	margin: 0;
+}
+
+header nav li {
+	float: left;
+	list-style: none;
+}
+
+header nav li a:hover {
+	color: #c564a8;
+	text-transform: fade(color, 50%);
+}
+
+header nav li + li {
+	padding-left: 15px;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#header-img img{
+	max-height: 400px;
+	width: 100%;
+	margin: 0;
+}
+
+.active {
+	color: #c564a8;
+}
+
+#aboutUs, #main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+
+------------FOOTER-------------
+footer {
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+footer #footer {
+	background-color: #000;
+	max-height: 300px;
+	padding: 15px 0 15px 25px;
+	color: white; 
+	margin-top: 30px;
+}
+
+footer h5 {
+	margin: 0;
+	padding: 0;
+}
+
+footer p {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+------------BOOK SEARCH-------------
+
+table#search tbody{
+	max-width: 300px;
+	background-color: #300829;
+	margin: 10px;
+}
+
+#submit {
+	padding: 10px;
+	background-color: #c564a8;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+}
+
+#submit:hover, .reserve:hover {
+	background-color: #85ce71;
+}
+
+
+button.reserve {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #999;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+}
+
+----------UPLOAD FILES---------------
+
+#upload {
+	text-decoration: none;
+	color: #000;
+}
+
+#uploadButton {
+	max-width: 400px;
+}
